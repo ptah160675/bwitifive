@@ -1,0 +1,316 @@
+/* GENERAL */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4 {
+    color: #444444;
+}
+h1
+{
+    font-family: Tangerine, Serif;
+    font-size: 45px;
+}
+h2
+{
+    font-size: 55px;
+}
+h3
+{
+    font-size: 30px;
+}
+
+h4
+{
+    font-size: 24px;
+}
+
+p
+{
+    line-height: 20px;
+    color: #777777;
+}
+
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444444;
+}
+
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.rouge
+{
+    color: 	#ED0000;
+}
+.clear
+{
+    clear: both;
+}
+small
+{
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+
+/*HEADER */
+header
+{
+    height: 120px;
+}
+
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li
+{
+    float: left;
+    display: inline-block;
+}
+
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+/* Main image*/
+
+#mainimage
+{
+    height: 580px;
+    background: url("images/20171128_192930.jpg") center;
+}
+
+#mainimage h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0 ;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.button1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ED0000;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.button1:hover
+{
+    background: #02b8dd;
+}
+
+/* Offres */
+
+#offres ul
+{
+    margin: 50px auto;
+    display: table;
+}
+#offres ul li
+{
+    width: 300px;
+    float: left;
+    padding-top: 100px;
+    text-align: center;
+    margin-right: 40px;
+}
+#offres h4
+{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#offres p
+{
+    margin-bottom: 20px;
+}
+
+#offre1
+{
+    background: url("images/conseil-image.png") no-repeat top center;
+}
+#offre2
+{
+    background: url("images/coaching-image.png") no-repeat top center;
+}
+#offre3
+{
+    background: url("images/formation-image.png") no-repeat top center;
+}
+
+/* PRINCIPES */
+#principes
+{
+    background-color: #efefef;
+    padding: 40px 0;
+    margin: auto;
+    display: table;
+
+}
+
+#principes article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+#principes article:first-child
+{
+    margin-right: 20px;
+}
+.overlay
+{
+    background: rgba(255,255,255,0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+article h4
+{
+    border-bottom: 1px solid #ED0000;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#principes p
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button2
+{
+    color           : #ffffff;
+    background-color: #ED0000;
+    padding         : 6px 20px;
+    border-radius   : 5px;
+
+}
+.button2:hover
+{
+    color           : #ffffff;
+    background-color: #02b8dd;
+}
+
+
+/* Contact */
+
+#contact
+{
+    padding: 60px 0;
+    text-align: center;
+}
+
+h3
+{
+    width         : 400px;
+    text-transform: uppercase;
+    margin        : 0 auto 20px auto;
+    border-bottom : 1px solid #ED0000;
+    padding-bottom: 20px;
+}
+
+form
+{
+    margin: O auto;
+    width: 400px;
+}
+
+label{
+    font-weight : bold;
+    font-size   : 20px;
+    margin-right: 10px;
+    color       : #ED0000;
+}
+#contact input[type ="text"]
+{
+    padding: 50px;
+    font-size: 20px;
+    margin-right: 200px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    width: 100%;
+}
+.button3
+{
+    color: #ffffff;
+    background-color: #ED0000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+.button3:hover
+{
+    background: #02b8dd;
+}
+
+/* FOOTER */
+
+footer
+{
+    height: 200px;
+    background-color: #dddddd;
+}
+
+footer h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
